@@ -2,7 +2,7 @@ package metric_test
 
 import (
 	"testing"
-	"github.com/coredefend/kpi-backend/metric"
+	"github.com/coredefend/kpi-backend/internal/metric"
 )
 
 func TestMetric(t *testing.T) {

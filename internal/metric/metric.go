@@ -33,7 +33,7 @@ func (m *metric) Contracts() int {
 	return m.contracts
 }
 
-func (m *metric) GrossProfit() float64) {
+func (m *metric) GrossProfit() float64 {
 	return m.grossProfit
 }
 
