@@ -6,7 +6,7 @@ import (
 )
 
 func TestNewChannel(t *testing.T) {
-	c, err := channel.NewChannel("postcards", 100, 50.50)
+	c, err := channel.New("postcards", 100, 50.50)
 	if err != nil {
 		t.Errorf("should not have error")
 	}

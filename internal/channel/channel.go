@@ -1,13 +1,13 @@
 package channel
 
-type Channel struct {
+type channel struct {
 	name string
 	quantity int
 	cost float64	
 }
 
-func NewChannel(name string, quantity int, cost float64) (*Channel, error) {
-	return &Channel{
+func New(name string, quantity int, cost float64) (*channel, error) {
+	return &channel{
 		name: name,
 		quantity: quantity,
 		cost: cost,
