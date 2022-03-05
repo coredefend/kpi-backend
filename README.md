@@ -1,2 +1,2 @@
 # kpi-backend
-backend for kpis
+backend for kpis to track direct-to-owner metrics.
